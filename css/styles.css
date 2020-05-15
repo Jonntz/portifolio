@@ -1,0 +1,162 @@
+*{
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background: url(../img/background-site.jpg);
+    background-size: 100vh 100vw;
+    font-size: 16px;
+}
+
+@media (max-width: 880px){
+    
+    main h2{
+        padding-top: 10px;
+    }
+    .apresentacao{
+        flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .apresentacao figure {
+        border-right: none;
+        border-bottom: thin solid silver;
+    }
+    
+    .apresentacao figure img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .apresentacao p{
+        text-align: justify;
+        
+    }
+    
+    .butao{
+        padding-bottom: 15px;
+    } 
+}
+
+header{
+    background-color: #7B68EE;
+    color: white;
+    padding: 20px;
+    box-shadow: 3px 3px 9px #C0C0C0;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    line-height: 20px;
+}
+
+h1{
+    float:left; 
+}
+
+ul{
+    text-align: end;
+    margin-right: 50px;
+}
+ul li{
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+    
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul li a:hover{
+    border-radius: 5%;
+    background-color: white;
+    color: #7B68EE;
+    padding: 5px;
+}
+
+
+main{
+    width: 70vw;
+    text-align: center;
+}
+
+.apresentacao{
+    width: inherit;
+    background-color: white;
+    box-shadow: 1px 2px 5px black;
+    margin-top: 10px;
+    padding: 20px 10px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao article p{
+    text-align: justify;
+    padding: 70px 20px;
+    position: relative;
+}
+
+figure{
+    border-right: thin solid silver;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+figure img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 3px 8px lightgray;
+    padding: 10px 10px;
+}
+
+.butao{
+    text-align: center;
+    padding: 20px 60px;
+    
+}
+
+.butao a{
+    background-color: #7B68EE;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 5%;
+    text-decoration: none;   
+}
+
+.butao a:hover{
+    box-shadow: 0 3px 9px black; 
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    
+    text-align: center;
+    background-color: #7B68EE;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    width: 100vw;
+    position:fixed;
+    bottom:0vh;
+}
+
+
